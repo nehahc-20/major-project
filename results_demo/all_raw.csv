@@ -1,0 +1,5 @@
+dataset,corpus_mode,question,baseline_em,baseline_f1,baseline_retrieval_acc,baseline_hallucination,baseline_latency_s,soar_em,soar_f1,soar_retrieval_acc,soar_hallucination,soar_latency_s,soar_context_compression,soar_iterations
+demo_geography,SCRIPTED_MECHANISM_DEMO,When was the Eiffel Tower's construction finished?,0,0.0,0,1,0.00018596649169921875,1,1.0,1,0,0.00047016143798828125,1.0,1
+demo_geography,SCRIPTED_MECHANISM_DEMO,Which mountain range contains the world's highest peak?,0,0.0,0,1,2.3126602172851562e-05,1,1.0,1,0,0.0001480579376220703,1.0,1
+demo_science,SCRIPTED_MECHANISM_DEMO,What two Nobel Prize categories did Marie Curie win in?,0,0.0,0,1,1.6927719116210938e-05,1,1.0,0,0,0.00011610984802246094,1.0,1
+demo_science,SCRIPTED_MECHANISM_DEMO,What are the two main outputs of photosynthesis?,0,0.0,1,1,1.71661376953125e-05,1,1.0,1,0,0.00011277198791503906,1.0,1

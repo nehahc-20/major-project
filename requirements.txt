@@ -1,0 +1,17 @@
+torch>=2.1
+transformers>=4.44
+bitsandbytes>=0.43; sys_platform == "linux"
+accelerate>=0.33
+peft>=0.12
+tokenizers>=0.19
+sentence-transformers>=3.0
+faiss-cpu>=1.8
+datasets>=2.20
+fastapi>=0.111
+uvicorn>=0.30
+pydantic>=2.7
+pandas>=2.2
+numpy>=1.26
+matplotlib>=3.8
+spacy>=3.7
+pytest>=8.0

@@ -1,0 +1,18 @@
+embedding_model: sentence-transformers/all-MiniLM-L6-v2
+generator_model: Qwen/Qwen2.5-1.5B-Instruct   # swap for a 7B model if you have an A100/L4
+device: cuda
+pipeline:
+  confidence_threshold: 0.75
+  entropy_threshold: 1.0
+  convergence_epsilon: 0.02
+  max_iterations: 3
+  top_k_default: 5
+reranking:
+  alpha: 0.4   # weight on semantic similarity
+  beta: 0.4    # weight on attention contribution
+  gamma: 0.2   # weight on confidence
+  min_k: 2
+  max_k: 10
+eval:
+  datasets: [nq, hotpotqa, triviaqa, bioasq]
+  samples_per_dataset: 100

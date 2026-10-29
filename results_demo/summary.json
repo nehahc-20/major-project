@@ -1,0 +1,37 @@
+{
+  "DISCLAIMER": "Generated with a hand-scripted deterministic model (demo/mock_eval_demo.py), NOT a real LLM. This is a constructed scenario illustrating the retrieval-depth mechanism, not a real accuracy benchmark. Run run_demo.py --eval or eval/run_eval.py with a real model for genuine results.",
+  "results": [
+    {
+      "dataset": "demo_geography",
+      "corpus_mode": "SCRIPTED_MECHANISM_DEMO",
+      "baseline_EM": 0.0,
+      "soar_EM": 1.0,
+      "baseline_F1": 0.0,
+      "soar_F1": 1.0,
+      "baseline_RetrievalAcc": 0.0,
+      "soar_RetrievalAcc": 1.0,
+      "baseline_HallucinationRate": 1.0,
+      "soar_HallucinationRate": 0.0,
+      "baseline_LatencyS": 0.0,
+      "soar_LatencyS": 0.0,
+      "soar_ContextCompression": 1.0,
+      "soar_AvgIterations": 1.0
+    },
+    {
+      "dataset": "demo_science",
+      "corpus_mode": "SCRIPTED_MECHANISM_DEMO",
+      "baseline_EM": 0.0,
+      "soar_EM": 1.0,
+      "baseline_F1": 0.0,
+      "soar_F1": 1.0,
+      "baseline_RetrievalAcc": 0.5,
+      "soar_RetrievalAcc": 0.5,
+      "baseline_HallucinationRate": 1.0,
+      "soar_HallucinationRate": 0.0,
+      "baseline_LatencyS": 0.0,
+      "soar_LatencyS": 0.0,
+      "soar_ContextCompression": 1.0,
+      "soar_AvgIterations": 1.0
+    }
+  ]
+}
